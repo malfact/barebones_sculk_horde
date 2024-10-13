@@ -8,5 +8,5 @@
 	#Set to true to send a chat message to all players when the server pause state changes.
 	sendChatMessageWhenPauseStateChanges = true
 	#Set to true to send a chat message to all players (and to the server log) when the a player's pause state changes.
-	sendChatMessageWhenPlayerPauseStateChanges = true
+	sendChatMessageWhenPlayerPauseStateChanges = false
 

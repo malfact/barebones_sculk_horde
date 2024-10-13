@@ -23,9 +23,9 @@
 	[Zombies."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.07
+		"Digger Chance" = 0.05
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
-		"Digger Tool Only" = false
+		"Digger Tool Only" = true
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
 		"Digger Proper Tool Only" = false
 		#Zombies with Digger AI will spawn with a Wooden Pickaxe.
@@ -88,7 +88,7 @@
 	#Witches flee from the target.
 	"Enable Witch Flee Target" = true
 	#Witches summon Villagers and cast a lightning upon them.
-	"Enable Dark Arts Witches" = true
+	"Enable Dark Arts Witches" = false
 	#Witches throw potions farther, faster and more potion types. Also no longer chase player if they can't see him.
 	"Enable Witch Potion Throwing" = true
 	#Witches drink more potions.

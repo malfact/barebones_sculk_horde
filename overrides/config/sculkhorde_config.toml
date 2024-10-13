@@ -43,14 +43,14 @@
 ["Sculk Node Variables"]
 	#How many chunks should be loaded around a sculk node? (Default 15)
 	#Range: 0 ~ 15
-	sculk_node_chunkload_radius = 15
+	sculk_node_chunkload_radius = 5
 	#How many hours should pass before another Sculk node can spawn? (Default 2)
 	#Range: > 0
-	sculk_node_spawn_cooldown_hours = 2
+	sculk_node_spawn_cooldown_hours = 8
 
 ["Sculk Mite Variables"]
 	#Should sculk mites spawn in deep dark? (Default false)
-	should_sculk_mites_spawn_in_deep_dark = false
+	should_sculk_mites_spawn_in_deep_dark = true
 
 ["Experimental Features"]
 	#Should experimental features be enabled? (Default false)
@@ -61,7 +61,7 @@
 	sculk_raid_enabled = true
 	#How long should the Sculk Enderman scout for? (Default 8)
 	#Range: > 0
-	sculk_raid_enderman_scouting_duration_minutes = 8
+	sculk_raid_enderman_scouting_duration_minutes = 15
 	#How long should the global cooldown between raids be in minutes? (Default 300)
 	#Range: > 0
 	sculk_raid_global_cooldown_between_raids_minutes = 300

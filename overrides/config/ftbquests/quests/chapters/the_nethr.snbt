@@ -422,6 +422,51 @@
 			x: 1.5d
 			y: 3.0d
 		}
+		{
+			dependencies: ["1FA8DFD92657FA73"]
+			description: ["When held in the player's main hand or offhand, the soulspring lamp emits a 9x9 aura of cooling, reducing all nearby entities' temperatures to at most 1 degree below the overheating threshold. This effect does not stack with multiple lamps, and only one soulspring lamp consumes fuel if multiple are present."]
+			id: "09A754B9FEEA561C"
+			rewards: [{
+				count: 16
+				id: "1451A93E3C835433"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "The Soulspring Lamp is an item that reduces the local world temperature to a habitable level in the Nether. It is the most important tool when traversing the dimension."
+			tasks: [{
+				id: "32EA4AB0F5C8C712"
+				item: {
+					Count: 1b
+					id: "cold_sweat:soulspring_lamp"
+					tag: {
+						Fuel: 64.0d
+						Lit: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["09A754B9FEEA561C"]
+			id: "176048B79345A28C"
+			rewards: [{
+				id: "3AAB92913CDD9192"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "The Soul Sprout is a food item and fuel source for the Soulspring Lamp."
+			tasks: [{
+				id: "5ACA34326BAA3617"
+				item: "cold_sweat:soul_sprout"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
 	]
 	title: "The Nether"
 }

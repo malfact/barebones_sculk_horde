@@ -10,6 +10,11 @@
 		{
 			icon: "minecraft:writable_book"
 			id: "0F9A3F940A7C28EA"
+			rewards: [{
+				id: "56D5CB4EAC5D62D0"
+				item: "ftbquests:book"
+				type: "item"
+			}]
 			size: 5.0d
 			tasks: [{
 				id: "5E88CAF50702E514"
@@ -21,6 +26,7 @@
 			y: -16.416666666666664d
 		}
 		{
+			dependencies: ["0F9A3F940A7C28EA"]
 			icon: "minecraft:torch"
 			id: "69A5E1A6A63C5CDF"
 			rewards: [{
@@ -37,10 +43,11 @@
 				type: "checkmark"
 			}]
 			title: "The Darkness"
-			x: -8.75d
-			y: -18.75d
+			x: -6.797619047619044d
+			y: -18.53571428571429d
 		}
 		{
+			dependencies: ["0F9A3F940A7C28EA"]
 			icon: {
 				Count: 1b
 				id: "cold_sweat:filled_waterskin"
@@ -62,30 +69,11 @@
 				type: "checkmark"
 			}]
 			title: "Thirst Bar"
-			x: -8.75d
-			y: -15.0d
+			x: -7.5d
+			y: -16.25d
 		}
 		{
-			description: [""]
-			icon: "cold_sweat:icebox"
-			id: "6FB240A56B393330"
-			rewards: [{
-				id: "4F7C316EDA97CF0F"
-				item: "cold_sweat:sewing_table"
-				type: "item"
-			}]
-			size: 2.5d
-			subtitle: "Being too hot or too cold can be detrimental! Different biomes, different Y Levels, and different seasons can greatly effect your temperature!"
-			tasks: [{
-				id: "17964D453ADFAF6C"
-				title: "Temperature"
-				type: "checkmark"
-			}]
-			title: "Temperature"
-			x: 2.5d
-			y: -12.5d
-		}
-		{
+			dependencies: ["0F9A3F940A7C28EA"]
 			description: [
 				"Progress in the game is divided into stages, with each stage providing new difficulty tweaks and"
 				"improving previous ones. At the moment there are three stages:"
@@ -105,8 +93,8 @@
 				type: "checkmark"
 			}]
 			title: "Progressive Difficulty"
-			x: -7.547619047619058d
-			y: -11.857142857142861d
+			x: -6.047619047619058d
+			y: -13.357142857142861d
 		}
 		{
 			dependencies: ["7DC26E9F96204E82"]
@@ -120,8 +108,8 @@
 				type: "checkmark"
 			}]
 			title: "Enderium"
-			x: -9.75d
-			y: -12.0d
+			x: -8.25d
+			y: -13.5d
 		}
 		{
 			dependencies: ["7DC26E9F96204E82"]
@@ -141,8 +129,8 @@
 				type: "checkmark"
 			}]
 			title: "Bleeding Mechanic"
-			x: -9.547619047619058d
-			y: -10.357142857142861d
+			x: -8.047619047619058d
+			y: -11.857142857142861d
 		}
 		{
 			dependencies: ["7DC26E9F96204E82"]
@@ -156,11 +144,11 @@
 				type: "checkmark"
 			}]
 			title: "Undead Army"
-			x: -8.047619047619058d
-			y: -9.357142857142861d
+			x: -6.547619047619058d
+			y: -10.857142857142861d
 		}
 		{
-			dependencies: ["6FB240A56B393330"]
+			dependencies: ["05310CA2860F706D"]
 			icon: "minecraft:packed_ice"
 			id: "49391C97221548AB"
 			size: 1.5d
@@ -171,8 +159,8 @@
 				type: "checkmark"
 			}]
 			title: "Cold Insulation"
-			x: -0.5d
-			y: -10.5d
+			x: -3.0d
+			y: -12.970238095238088d
 		}
 		{
 			dependencies: ["49391C97221548AB"]
@@ -187,8 +175,8 @@
 				item: "cold_sweat:goat_fur"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -9.0d
+			x: -4.0d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["49391C97221548AB"]
@@ -204,8 +192,8 @@
 				type: "item"
 			}]
 			title: "Any wools"
-			x: 0.5d
-			y: -9.0d
+			x: -2.0d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["49391C97221548AB"]
@@ -221,8 +209,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -9.0d
+			x: -3.0d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["49391C97221548AB"]
@@ -238,8 +226,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.0d
+			x: -3.0d
+			y: -10.470238095238088d
 		}
 		{
 			dependencies: ["49391C97221548AB"]
@@ -255,8 +243,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.0d
+			x: -3.0d
+			y: -9.470238095238088d
 		}
 		{
 			dependencies: ["49391C97221548AB"]
@@ -272,12 +260,11 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -6.0d
+			x: -3.0d
+			y: -8.470238095238088d
 		}
 		{
-			dependencies: ["6FB240A56B393330"]
-			hide: true
+			dependencies: ["05310CA2860F706D"]
 			icon: "minecraft:leather"
 			id: "7C1B3E1815541FE2"
 			size: 1.5d
@@ -287,11 +274,11 @@
 				title: "Neutral Insulation"
 				type: "checkmark"
 			}]
-			x: 2.5880952380952493d
-			y: -10.43928571428571d
+			x: 0.08809523809524933d
+			y: -12.909523809523797d
 		}
 		{
-			dependencies: ["6FB240A56B393330"]
+			dependencies: ["05310CA2860F706D"]
 			icon: "minecraft:magma_block"
 			id: "5CAD6D0D46DF2785"
 			size: 1.5d
@@ -301,8 +288,8 @@
 				title: "Hot Insulation"
 				type: "checkmark"
 			}]
-			x: 5.25d
-			y: -10.5d
+			x: 2.75d
+			y: -12.970238095238088d
 		}
 		{
 			dependencies: ["7C1B3E1815541FE2"]
@@ -319,8 +306,8 @@
 				type: "checkmark"
 			}]
 			title: "Leather"
-			x: 2.0d
-			y: -9.0d
+			x: -0.5d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["7C1B3E1815541FE2"]
@@ -337,8 +324,8 @@
 				title: "leather cap"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 0.5d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["7C1B3E1815541FE2"]
@@ -355,8 +342,8 @@
 				title: "leather tunic"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -8.0d
+			x: 0.5d
+			y: -10.470238095238088d
 		}
 		{
 			dependencies: ["7C1B3E1815541FE2"]
@@ -373,8 +360,8 @@
 				title: "leather pants"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: 0.5d
+			y: -9.470238095238088d
 		}
 		{
 			dependencies: ["7C1B3E1815541FE2"]
@@ -391,8 +378,8 @@
 				title: "leather boots"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: -6.0d
+			x: 0.5d
+			y: -8.470238095238088d
 		}
 		{
 			dependencies: ["5CAD6D0D46DF2785"]
@@ -408,8 +395,8 @@
 				item: "cold_sweat:hoglin_hide"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -9.0d
+			x: 2.0d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["5CAD6D0D46DF2785"]
@@ -425,8 +412,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -9.0d
+			x: 3.0d
+			y: -11.470238095238088d
 		}
 		{
 			dependencies: ["5CAD6D0D46DF2785"]
@@ -442,8 +429,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -8.0d
+			x: 3.0d
+			y: -10.470238095238088d
 		}
 		{
 			dependencies: ["5CAD6D0D46DF2785"]
@@ -459,8 +446,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.0d
+			x: 3.0d
+			y: -9.470238095238088d
 		}
 		{
 			dependencies: ["5CAD6D0D46DF2785"]
@@ -476,8 +463,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 3.0d
+			y: -8.470238095238088d
 		}
 		{
 			dependencies: ["5CAD6D0D46DF2785"]
@@ -492,11 +479,11 @@
 				item: "minecraft:rabbit_hide"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -9.0d
+			x: 4.0d
+			y: -11.470238095238088d
 		}
 		{
-			dependencies: ["6FB240A56B393330"]
+			dependencies: ["05310CA2860F706D"]
 			icon: "cold_sweat:sewing_table"
 			id: "3B22C25A2E1D043B"
 			rewards: [{
@@ -512,11 +499,11 @@
 				type: "item"
 			}]
 			title: "Sewing Table"
-			x: 6.035714285714292d
-			y: -12.458333333333336d
+			x: 0.0d
+			y: -17.25d
 		}
 		{
-			dependencies: ["6FB240A56B393330"]
+			dependencies: ["05310CA2860F706D"]
 			icon: "cold_sweat:chameleon_molt"
 			id: "487CDCF9F64F2DF3"
 			rewards: [{
@@ -532,8 +519,132 @@
 				type: "checkmark"
 			}]
 			title: "Adaptive Insulation"
-			x: 5.654761904761898d
-			y: -14.029761904761912d
+			x: 1.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["05310CA2860F706D"]
+			id: "0471FF63DEB5F100"
+			rewards: [
+				{
+					count: 8
+					id: "26E852F067363BD5"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39D2C68CA8D28EAC"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+				{
+					id: "6127E02611AF6DDE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			subtitle: "The Hearth is a functional block that heats up or cools down nearby blocks. It is the most important block in base-building and long-term temperature management."
+			tasks: [{
+				id: "7B558A78C3BFF2ED"
+				item: "cold_sweat:hearth"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["05310CA2860F706D"]
+			id: "4FC8D1BADADA4ACA"
+			rewards: [{
+				id: "24344B44B8A234BF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "The Boiler is a technical block that is used to heat Waterskins.It can also warm up nearby players when equipped with a Smokestack."
+			tasks: [{
+				id: "535C9441860E63A7"
+				item: "cold_sweat:boiler"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["05310CA2860F706D"]
+			id: "44F7CCDC4453B8A5"
+			rewards: [{
+				id: "4D3225ED0DA927C8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "The Smokestack is a utility block used to enable the temperature-controlling functionality of the Icebox and Boiler, turning them into a pre-Nether alternative to the Hearth."
+			tasks: [{
+				id: "39067C77D4D06A43"
+				item: "cold_sweat:smokestack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["05310CA2860F706D"]
+			id: "2005B1088781B0DB"
+			rewards: [{
+				id: "6E5E4772E2E7053F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "The Icebox is a technical block that is used to cool Waterskins.It can also cool down nearby players when equipped with a Smokestack."
+			tasks: [{
+				id: "7DA45A5B2CB6BB11"
+				item: "cold_sweat:icebox"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["05310CA2860F706D"]
+			id: "451DADED5D9F1887"
+			rewards: [{
+				id: "260236AA96063E2B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "The Thermolith is a redstone component that outputs a signal based on the current ambient temperature."
+			tasks: [{
+				id: "37A67602A3FB8519"
+				item: "cold_sweat:thermolith"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0F9A3F940A7C28EA"]
+			icon: "cold_sweat:thermometer"
+			id: "05310CA2860F706D"
+			rewards: [{
+				id: "324CD83D8F0FEB0E"
+				item: "cold_sweat:thermometer"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "The Thermometer is a tool that displays the exact world temperature (in degrees Fahrenheit or Celsius) when held in the player's hotbar or offhand."
+			tasks: [{
+				id: "5A1B5FF0EA136375"
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			title: "Temperature"
+			x: 0.0d
+			y: -15.0d
 		}
 	]
 	title: "The Basics"

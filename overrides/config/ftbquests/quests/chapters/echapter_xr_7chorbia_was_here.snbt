@@ -8,16 +8,16 @@
 		id: "hexerei:book_of_shadows"
 		tag: { }
 	}
-	id: "5E68CFDEAACA2416"
+	id: "6F2F9054EC6EA2D8"
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["5A4A2AD67F66718C"]
-			id: "6AC73F90EE47E809"
+			id: "212932FC8DF79256"
 			rewards: [{
 				count: 5
-				id: "4EF72E9CFC49D243"
+				id: "4B04204E6172F371"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
@@ -25,7 +25,7 @@
 			size: 1.2d
 			subtitle: "Mixes all sorts of recipes."
 			tasks: [{
-				id: "40EB6D3131956AA5"
+				id: "0AD07358F71E330C"
 				item: "hexerei:mixing_cauldron"
 				type: "item"
 			}]
@@ -35,16 +35,16 @@
 		}
 		{
 			dependencies: ["7652FD29DEBD178B"]
-			id: "07C5CAAA9BC6E247"
+			id: "64EC672E6C53FDFA"
 			rewards: [{
 				count: 4
-				id: "0CE188A8EBD0A311"
+				id: "7C53B2795F176C45"
 				item: "hexerei:infused_fabric"
 				type: "item"
 			}]
 			subtitle: "Used to make witch armor."
 			tasks: [{
-				id: "3CBEAEF99801F38D"
+				id: "2D4C8091C5FC4C00"
 				item: "hexerei:infused_fabric"
 				type: "item"
 			}]
@@ -54,17 +54,17 @@
 		}
 		{
 			dependencies: ["377608AF5E3210FF"]
-			id: "2EC6A07B008B7E23"
+			id: "26A0DA6FF41E1BE5"
 			rewards: [{
 				count: 4
-				id: "4FA1C644B85B1FC2"
+				id: "1C5BDF5924CA2805"
 				item: "hexerei:selenite_shard"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [
 				{
-					id: "2AF4993EC03787B7"
+					id: "49CB2B14BC6B0B16"
 					item: {
 						Count: 1b
 						id: "hexerei:witch_helmet"
@@ -75,7 +75,7 @@
 					type: "item"
 				}
 				{
-					id: "407818BD8034BCB2"
+					id: "749EAE2BA1F9E0DF"
 					item: {
 						Count: 1b
 						id: "hexerei:witch_boots"
@@ -86,7 +86,7 @@
 					type: "item"
 				}
 				{
-					id: "06A665ECB2B96AA7"
+					id: "2C6C2E0B5269F73C"
 					item: {
 						Count: 1b
 						id: "hexerei:witch_chestplate"
@@ -103,15 +103,15 @@
 		}
 		{
 			dependencies: ["0C60D0AD2D841E41"]
-			id: "2E46054239C45DB4"
+			id: "4F71E1BFAFBF8558"
 			rewards: [{
-				id: "72C6CC36D9FD535A"
+				id: "79C73C1DAD753540"
 				item: "minecraft:bucket"
 				type: "item"
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "30ABA3790E7B1DB6"
+				id: "67FA9363BEBF7004"
 				item: "minecraft:water_bucket"
 				type: "item"
 			}]
@@ -121,15 +121,15 @@
 		}
 		{
 			dependencies: ["0C60D0AD2D841E41"]
-			id: "796C26318338E189"
+			id: "601090B5FC63F953"
 			rewards: [{
-				id: "295D41D443137792"
+				id: "7A761FCD8CB5D3D5"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
 			shape: "rsquare"
 			tasks: [{
-				id: "39A112558B74C5D8"
+				id: "6930D373BC5B7EF3"
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
@@ -139,9 +139,9 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "49CAC34AA2FA833D"
+			id: "5425E39A7D81570D"
 			rewards: [{
-				id: "63463E66735A8879"
+				id: "767E5A26DBC38B35"
 				item: {
 					Count: 1b
 					id: "minecraft:potion"
@@ -153,7 +153,7 @@
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "5C0B2A3E4B27949C"
+				id: "0967A417F80CF6ED"
 				item: "hexerei:candle_dipper"
 				type: "item"
 			}]
@@ -163,16 +163,16 @@
 		}
 		{
 			dependencies: ["5D820E30F96098DA"]
-			id: "749F1E3A732B4E37"
+			id: "2992EBC85FCBB670"
 			rewards: [{
 				count: 3
-				id: "378246345B2025E8"
+				id: "70D59C193483765F"
 				item: "hexerei:candle"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "0671F3B850A25DEF"
+				id: "73D59608E29F4D32"
 				item: "hexerei:candle"
 				type: "item"
 			}]
@@ -182,15 +182,15 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "3EF33AD5F187128D"
+			id: "2464E179EE58221C"
 			rewards: [{
-				id: "659B3E2B0DC26F45"
+				id: "18D29FE88276916D"
 				item: "hexerei:blood_sigil"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "2194280B5826DA49"
+				id: "2AF8A18A49BD64EA"
 				item: "hexerei:blood_sigil"
 				type: "item"
 			}]
@@ -200,16 +200,16 @@
 		}
 		{
 			dependencies: ["4802C3FBE2D801F7"]
-			id: "44C42E0BB287C17F"
+			id: "7959CF76A10429D2"
 			rewards: [{
 				count: 3
-				id: "7C96D660A58411E7"
+				id: "211F4D513CC08009"
 				item: "hexerei:blood_bottle"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "214E239B56D8031A"
+				id: "05DB84387433BB9F"
 				item: "hexerei:blood_bottle"
 				type: "item"
 			}]
@@ -219,16 +219,16 @@
 		}
 		{
 			dependencies: ["7652FD29DEBD178B"]
-			id: "53D9F6CE3C83B548"
+			id: "6CAF55E84E7D9119"
 			rewards: [{
 				count: 4
-				id: "07B8CB81A0D8C244"
+				id: "1F31A3E78C5890D3"
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "1BC4825E2F3C84F9"
+				id: "72EF18275A190B11"
 				item: {
 					Count: 1b
 					id: "hexerei:mahogany_broom"
@@ -241,10 +241,10 @@
 			y: 4.5d
 		}
 		{
-			id: "2CF17D7FEF43CE92"
+			id: "48D019DF5AAF3EC7"
 			rewards: [{
 				count: 4
-				id: "4BEDEB9378B4C432"
+				id: "64FB54A533333D0C"
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
@@ -252,7 +252,7 @@
 			size: 1.5d
 			subtitle: "Your guide to &6Hexerei."
 			tasks: [{
-				id: "721CD25209DB2EB7"
+				id: "15598881BDACA53A"
 				item: {
 					Count: 1b
 					id: "hexerei:book_of_shadows"
@@ -266,10 +266,10 @@
 		}
 		{
 			dependencies: ["5A4A2AD67F66718C"]
-			id: "546D16EBB7216087"
+			id: "3E1CCBE02D21C55A"
 			rewards: [{
 				count: 2
-				id: "0CED5444720B7F7E"
+				id: "334C9C6DE693A26D"
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
@@ -277,7 +277,7 @@
 			size: 1.2d
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "75F5577B2DB9B447"
+				id: "75AEE306DB967F2D"
 				item: "hexerei:book_of_shadows_altar"
 				type: "item"
 			}]
@@ -287,16 +287,16 @@
 		}
 		{
 			dependencies: ["7652FD29DEBD178B"]
-			id: "61464B472284AD14"
+			id: "74B80104F4726BE9"
 			rewards: [{
 				count: 2
-				id: "629C8318E5463243"
+				id: "0D71CC17F3AA4EF1"
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "44CC3EE5799D6CC5"
+				id: "4F28178244B83DFB"
 				item: {
 					Count: 1b
 					id: "hexerei:coffer"
@@ -310,15 +310,15 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "7F52D63445F1F7FA"
+			id: "29877BE57A1DE84F"
 			rewards: [{
-				id: "247EBEF3B49B2CAB"
+				id: "33D476CF32C48DE9"
 				item: "hexerei:herb_drying_rack_full"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "4A4429088DFBD6D8"
+				id: "50F1941BEB0D3D60"
 				item: {
 					Count: 1b
 					id: "hexerei:herb_jar"
@@ -332,16 +332,16 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "2BFDE9B6ABF5AE7B"
+			id: "10D0EFF8A22B7813"
 			rewards: [{
 				count: 4
-				id: "33DC828A3574023B"
+				id: "2BC19FA11F979FF9"
 				item: "hexerei:seed_mixture"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "4BF96E2C6C97AED6"
+				id: "5B22DB6ADB7E0D10"
 				item: "hexerei:pestle_and_mortar"
 				type: "item"
 			}]
@@ -351,16 +351,16 @@
 		}
 		{
 			dependencies: ["5A4A2AD67F66718C"]
-			id: "076C5764E3D8D5CE"
+			id: "5113DA1E70AA27BF"
 			rewards: [{
 				count: 2
-				id: "40DB518B9F9526BC"
+				id: "245B339B177A981C"
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "764B3A61F18642FC"
+				id: "0A266D02968DC157"
 				item: "hexerei:herb_drying_rack"
 				type: "item"
 			}]
@@ -370,9 +370,9 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "21890F5F3EFCEE0F"
+			id: "55DA562F7D031321"
 			rewards: [{
-				id: "4DC0C6326F2894F4"
+				id: "6694E43590A27FB1"
 				item: {
 					Count: 1b
 					id: "hexerei:dried_sage_bundle"
@@ -384,7 +384,7 @@
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "6B1919277CC40EE0"
+				id: "77FD94744C33618E"
 				item: "hexerei:sage_burning_plate"
 				type: "item"
 			}]
@@ -394,16 +394,16 @@
 		}
 		{
 			dependencies: ["5A4A2AD67F66718C"]
-			id: "0492471903797DFF"
+			id: "00A6D04E8E1B3EA2"
 			rewards: [{
 				count: 2
-				id: "23BC71A9831BFC86"
+				id: "097BBD58313ED147"
 				item: "hexerei:mahogany_log"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "58B7E681DF317A46"
+				id: "42E7D05BDC258CB6"
 				item: {
 					Count: 1b
 					id: "hexerei:crow_flute"
@@ -417,9 +417,9 @@
 		}
 		{
 			dependencies: ["7652FD29DEBD178B"]
-			id: "13830FCCF7F3CC43"
+			id: "3B9C62B6DFF0EDB8"
 			rewards: [{
-				id: "6A711A3B089DA04C"
+				id: "5465BFAF8FB45203"
 				item: {
 					Count: 1b
 					id: "minecraft:potion"
@@ -431,7 +431,7 @@
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "010A48E38975BBD0"
+				id: "4001C2E17A7D7300"
 				item: {
 					Count: 1b
 					id: "hexerei:broom_waterproof_tip"
@@ -447,15 +447,15 @@
 		}
 		{
 			dependencies: ["762EE4B4D1B9748E"]
-			id: "08C18E7D44142BBF"
+			id: "6EC1EDFDE34D234E"
 			rewards: [{
-				id: "5B13FF257B1BC0F6"
+				id: "759333E07DC770DD"
 				item: "minecraft:netherite_scrap"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [{
-				id: "1D7AAB49BD49B78B"
+				id: "107FB9DBD269A0B5"
 				item: {
 					Count: 1b
 					id: "hexerei:broom_netherite_tip"
@@ -471,27 +471,27 @@
 		}
 		{
 			dependencies: ["7652FD29DEBD178B"]
-			id: "4CF0AC733CCE8C0D"
+			id: "4F0508C4C1F7A8C7"
 			rewards: [{
 				count: 4
-				id: "5A83DE52D5C44D1C"
+				id: "28B14F2FE9559604"
 				item: "minecraft:leather"
 				type: "item"
 			}]
 			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
 			tasks: [
 				{
-					id: "7BB3AD275B9DA585"
+					id: "7F07020E1463B690"
 					item: "hexerei:small_satchel"
 					type: "item"
 				}
 				{
-					id: "2AC47335F3B395BC"
+					id: "230919102670685E"
 					item: "hexerei:medium_satchel"
 					type: "item"
 				}
 				{
-					id: "462AC3BCF093E70C"
+					id: "19C7244AB015A372"
 					item: "hexerei:large_satchel"
 					type: "item"
 				}
