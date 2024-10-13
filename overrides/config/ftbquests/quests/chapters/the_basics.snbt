@@ -1,0 +1,540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_basics"
+	group: ""
+	id: "65B139A42B7BF0C7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:writable_book"
+			id: "0F9A3F940A7C28EA"
+			size: 5.0d
+			tasks: [{
+				id: "5E88CAF50702E514"
+				title: "BareBones Sculk Horde"
+				type: "checkmark"
+			}]
+			title: "BareBonesMP: Sculk Horde"
+			x: -3.952380952380949d
+			y: -16.416666666666664d
+		}
+		{
+			icon: "minecraft:torch"
+			id: "69A5E1A6A63C5CDF"
+			rewards: [{
+				count: 16
+				id: "4EAF0FC0D26CE3D8"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Being in the dark for too long will cause you great harm. Make sure you are always in the light."
+			tasks: [{
+				id: "01EAB5901C3EEA72"
+				title: "The Darkness"
+				type: "checkmark"
+			}]
+			title: "The Darkness"
+			x: -8.75d
+			y: -18.75d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "cold_sweat:filled_waterskin"
+				tag: {
+					Purity: 3
+				}
+			}
+			id: "6E535D2833FA2A11"
+			rewards: [{
+				id: "0E342A771C0A44ED"
+				item: "cold_sweat:waterskin"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Make sure you stay hydrated. Craft a waterskin!"
+			tasks: [{
+				id: "653B4DBD3FC5D661"
+				title: "Thirst"
+				type: "checkmark"
+			}]
+			title: "Thirst Bar"
+			x: -8.75d
+			y: -15.0d
+		}
+		{
+			description: [""]
+			icon: "cold_sweat:icebox"
+			id: "6FB240A56B393330"
+			rewards: [{
+				id: "4F7C316EDA97CF0F"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			size: 2.5d
+			subtitle: "Being too hot or too cold can be detrimental! Different biomes, different Y Levels, and different seasons can greatly effect your temperature!"
+			tasks: [{
+				id: "17964D453ADFAF6C"
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			title: "Temperature"
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			description: [
+				"Progress in the game is divided into stages, with each stage providing new difficulty tweaks and"
+				"improving previous ones. At the moment there are three stages:"
+				""
+				"- Normal Mode, which starts at the beginning of the game."
+				"- Expert Mode, which starts when the first player enters the Nether."
+				"(or any dimension from other mods)"
+				"- Master Mode, which starts when you defeat the Ender Dragon."
+			]
+			icon: "majruszsdifficulty:enderium_ingot"
+			id: "7DC26E9F96204E82"
+			size: 2.5d
+			subtitle: "The world will scale up in difficulty at certain stages of the game."
+			tasks: [{
+				id: "5FAE902DCCB4B976"
+				title: "Majrusz's Progressive Difficulty"
+				type: "checkmark"
+			}]
+			title: "Progressive Difficulty"
+			x: -7.547619047619058d
+			y: -11.857142857142861d
+		}
+		{
+			dependencies: ["7DC26E9F96204E82"]
+			icon: "majruszsdifficulty:enderium_shard_ore"
+			id: "708C8C5BBF30E894"
+			size: 1.5d
+			subtitle: "a new ore called Enderium can be found.With this ore, you can make Enderium Ingots which are used to upgrade Netherite armor and tools!Enderium ore generates in End Stone and can be found in End structures as well."
+			tasks: [{
+				id: "7D2DE35A122A6FCA"
+				title: "Enderium Ingots"
+				type: "checkmark"
+			}]
+			title: "Enderium"
+			x: -9.75d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7DC26E9F96204E82"]
+			icon: "majruszsdifficulty:bandage"
+			id: "79BE098B58E77575"
+			rewards: [{
+				count: 4
+				id: "300FC5EF865C0CF0"
+				item: "majruszsdifficulty:bandage"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Each animal and human being can now bleed. This is an effect that deals damage similarto poison and can be removed using a new item: Bandage. It is caused by many different sourcessuch as swords, spiders or even cactuses... but the more armor you have, the less likely you are to bleed.It is important to keep bandages with you as the Bleeding becomes more deadly with each stage!"
+			tasks: [{
+				id: "566F0770FA32003B"
+				title: "Bleeding"
+				type: "checkmark"
+			}]
+			title: "Bleeding Mechanic"
+			x: -9.547619047619058d
+			y: -10.357142857142861d
+		}
+		{
+			dependencies: ["7DC26E9F96204E82"]
+			icon: "majruszsdifficulty:undead_battle_standard"
+			id: "66E34AEEEA3CBB4F"
+			size: 1.5d
+			subtitle: "The Undead Army is a new raid which starts after killing a certain amount ofundead enemies. It has up to 5 waves, rewards the player with a treasure bag afterfinishing it, scales difficulty over time and scales difficulty with each player participating in!"
+			tasks: [{
+				id: "7E89D57AE6BE1C40"
+				title: "Undead Army"
+				type: "checkmark"
+			}]
+			title: "Undead Army"
+			x: -8.047619047619058d
+			y: -9.357142857142861d
+		}
+		{
+			dependencies: ["6FB240A56B393330"]
+			icon: "minecraft:packed_ice"
+			id: "49391C97221548AB"
+			size: 1.5d
+			subtitle: "Items and armor used to protect you in cold enviroments."
+			tasks: [{
+				id: "2FD61E7BCE6896A0"
+				title: "Cold Insulation"
+				type: "checkmark"
+			}]
+			title: "Cold Insulation"
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["49391C97221548AB"]
+			id: "4E5E7AA5413B9A20"
+			rewards: [{
+				id: "43CA12E0BDD7831B"
+				item: "cold_sweat:goat_fur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7657096F9399BACF"
+				item: "cold_sweat:goat_fur"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["49391C97221548AB"]
+			id: "5321533AFE683BB5"
+			rewards: [{
+				id: "5F755EFBFE773C2A"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B4067B22A6DE0B2"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			title: "Any wools"
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["49391C97221548AB"]
+			id: "61796FF2095C0391"
+			tasks: [{
+				id: "4C45440FC722871F"
+				item: {
+					Count: 1b
+					id: "cold_sweat:goat_fur_cap"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["49391C97221548AB"]
+			id: "297BAFEA5208B5BF"
+			tasks: [{
+				id: "38F7E13CA62AE66F"
+				item: {
+					Count: 1b
+					id: "cold_sweat:goat_fur_parka"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["49391C97221548AB"]
+			id: "69B0A98881BCA3CC"
+			tasks: [{
+				id: "28CF52A812D88B5A"
+				item: {
+					Count: 1b
+					id: "cold_sweat:goat_fur_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["49391C97221548AB"]
+			id: "11596C1A786269FC"
+			tasks: [{
+				id: "68EFB01FDD6E2F15"
+				item: {
+					Count: 1b
+					id: "cold_sweat:goat_fur_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6FB240A56B393330"]
+			hide: true
+			icon: "minecraft:leather"
+			id: "7C1B3E1815541FE2"
+			size: 1.5d
+			subtitle: "Insulation items fit for both hot and cold environments. This type of insulation is 50% as powerful as heat or cold insulation:"
+			tasks: [{
+				id: "7A92C2894DCFBCC9"
+				title: "Neutral Insulation"
+				type: "checkmark"
+			}]
+			x: 2.5880952380952493d
+			y: -10.43928571428571d
+		}
+		{
+			dependencies: ["6FB240A56B393330"]
+			icon: "minecraft:magma_block"
+			id: "5CAD6D0D46DF2785"
+			size: 1.5d
+			subtitle: "Insulation items fit for hot environments:"
+			tasks: [{
+				id: "7B1F47E301362BBC"
+				title: "Hot Insulation"
+				type: "checkmark"
+			}]
+			x: 5.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7C1B3E1815541FE2"]
+			icon: "minecraft:leather"
+			id: "49875B06BD0FCEDB"
+			rewards: [{
+				id: "15BCEEAB1C6B1B0A"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "277437E2011CEF67"
+				title: "leather"
+				type: "checkmark"
+			}]
+			title: "Leather"
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C1B3E1815541FE2"]
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "269B101C04223703"
+			tasks: [{
+				id: "687C1B1558035E4B"
+				title: "leather cap"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7C1B3E1815541FE2"]
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2A6BD5E3539CE527"
+			tasks: [{
+				id: "3E4DC6D61FD3649B"
+				title: "leather tunic"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7C1B3E1815541FE2"]
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "74E55F7C32C892B4"
+			tasks: [{
+				id: "7626A4FD4484F5F3"
+				title: "leather pants"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7C1B3E1815541FE2"]
+			icon: {
+				Count: 1b
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29D3E3F3A6A917A2"
+			tasks: [{
+				id: "2B7C4A5FB452B534"
+				title: "leather boots"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5CAD6D0D46DF2785"]
+			dependency_requirement: "all_started"
+			id: "5F08402394FC8C89"
+			rewards: [{
+				id: "460053956498218A"
+				item: "cold_sweat:hoglin_hide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "466F6DD9E88D636E"
+				item: "cold_sweat:hoglin_hide"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5CAD6D0D46DF2785"]
+			id: "79E69570DA1FFE34"
+			tasks: [{
+				id: "517AEC225D933DBC"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_headpiece"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5CAD6D0D46DF2785"]
+			id: "4DCCBC29838CD0AE"
+			tasks: [{
+				id: "524F8AA6783DAB67"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_tunic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5CAD6D0D46DF2785"]
+			id: "456E601462BB122D"
+			tasks: [{
+				id: "5EA03FF42F3856D4"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_trousers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5CAD6D0D46DF2785"]
+			id: "2C8C81B9374536DD"
+			tasks: [{
+				id: "446C6FE522CF5359"
+				item: {
+					Count: 1b
+					id: "cold_sweat:hoglin_hooves"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5CAD6D0D46DF2785"]
+			id: "21A7145F6FEAB327"
+			rewards: [{
+				id: "6F0E2A1B4B0814E1"
+				item: "minecraft:rabbit_hide"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1EF22C3322E57C83"
+				item: "minecraft:rabbit_hide"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6FB240A56B393330"]
+			icon: "cold_sweat:sewing_table"
+			id: "3B22C25A2E1D043B"
+			rewards: [{
+				id: "01F49FCFD5DEE8CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "Used to add or remove insulation materials to existing armor. Insert the material to add insulation or use Shears to remove insulation!"
+			tasks: [{
+				id: "17D2221FFD88BB23"
+				item: "cold_sweat:sewing_table"
+				type: "item"
+			}]
+			title: "Sewing Table"
+			x: 6.035714285714292d
+			y: -12.458333333333336d
+		}
+		{
+			dependencies: ["6FB240A56B393330"]
+			icon: "cold_sweat:chameleon_molt"
+			id: "487CDCF9F64F2DF3"
+			rewards: [{
+				id: "7CDFE1BD03635684"
+				item: "cold_sweat:chameleon_molt"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Insulation items fit for both hot and cold environments. This type of insulation is 75% as effective as heat or cold insulation, but takes time to adapt to the wearer's environment and reach its full effect"
+			tasks: [{
+				id: "63075987C543BE56"
+				title: "Chameleon Molt"
+				type: "checkmark"
+			}]
+			title: "Adaptive Insulation"
+			x: 5.654761904761898d
+			y: -14.029761904761912d
+		}
+	]
+	title: "The Basics"
+}

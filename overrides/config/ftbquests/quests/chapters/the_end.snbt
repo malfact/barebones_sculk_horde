@@ -1,0 +1,458 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "10884A0C6138D440"
+	icon: "minecraft:end_stone"
+	id: "2C26CEEDFB782481"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:dragon_head"
+			id: "5B951575FC0E3730"
+			size: 5.0d
+			tasks: [{
+				id: "215D7C022B5917EC"
+				title: "The End"
+				type: "checkmark"
+			}]
+			x: 0.5357142857142847d
+			y: -10.267857142857142d
+		}
+		{
+			dependencies: ["1E8BBEADD5B768DD"]
+			id: "259994986FEFDA10"
+			rewards: [{
+				id: "0433118E0B2694EA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			subtitle: "Find 9 Eyes of Wonder to open the portal to the End."
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "5D6F84B1F4D4AFAB"
+				structure: "betterstrongholds:stronghold"
+				type: "structure"
+			}]
+			title: "Find the Stronghold"
+			x: 0.5000000000000071d
+			y: -2.9583333333333357d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "52EE60B4553D9FCA"
+			rewards: [{
+				id: "7A165BE11BB25F12"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Pirates say it gave sight to the legendary Black Pearl"
+			tasks: [{
+				id: "220180B48A320937"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "73E645F5759C5E0E"
+			rewards: [{
+				id: "3E9B55B52828C34E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"
+			tasks: [{
+				id: "708EF999880D5359"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "1A40FDFBC6BC01B3"
+			rewards: [{
+				id: "3F313E4FE0373CBD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "The eye of a greedy king faded in solitude. Legend says it will bring infinite fortune to its owner"
+			tasks: [{
+				id: "6168D9E76CF9603B"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "385B0DD331DC55E3"
+			rewards: [{
+				id: "76BC8D5FB72EFF16"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "It is told that it was forged by the first blacksmiths of time"
+			tasks: [{
+				id: "626631EF86076DD3"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "44E90E3C384C73CB"
+			rewards: [{
+				id: "1257C542C7EFC7F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "It was lost by a demon in the battle between the Aether and the Nether"
+			tasks: [{
+				id: "09C3A65B3396BFBD"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "2F2D5C7691534E05"
+			rewards: [{
+				id: "009B58E0012EC10C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Legends say this eye once belonged to one of the great Sandworms"
+			tasks: [{
+				id: "2EF996E0AE11C391"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "7953215B26F85929"
+			rewards: [{
+				id: "5F5432BCC3273E41"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "This eye is believed to have given our ancestors the knowledge of Redstone"
+			tasks: [{
+				id: "034BA31EF1CF172E"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "2BAFC70FE6E96894"
+			rewards: [{
+				id: "3241C171A2E2A4B7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"
+			tasks: [{
+				id: "7377B81140442A3B"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "655329E735FB37CE"
+			rewards: [{
+				id: "6D350309A3A73CD7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " A holy talisman said to protect its owner from bad luck"
+			tasks: [{
+				id: "2FAB21904ECA4B5B"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "71F031886A70DC42"
+			rewards: [{
+				id: "498770A00BF4F2B5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "It has seen many warriors drown into the depths of the sea"
+			tasks: [{
+				id: "7D074FE50D752B62"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "09AFD1025FC3C474"
+			rewards: [{
+				id: "250FC8370974629D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Without this eye, the Evoker has no power"
+			tasks: [{
+				id: "13E4F6D8BF9D2B3A"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "0682EA4F2C226D92"
+			rewards: [{
+				id: "6EF52F18D0491137"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Has witnessed destruction. Maybe it also witnessed your stuff disappear"
+			tasks: [{
+				id: "3D69E5DE5AD8867A"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "6845B8236F386BDE"
+			rewards: [{
+				id: "066AC094676FD096"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " This pupil is believed to have seen the ancient brewing recipes that were lost in time."
+			tasks: [{
+				id: "6E2344AD5F86B1F5"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "6C24CF8E11AFC62E"
+			rewards: [{
+				id: "3CBBC48BB8BC8A8C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " Remembrance of the past lives of those who live in death"
+			tasks: [{
+				id: "6669D0FC83443F03"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "4D3A035B49FA86BA"
+			rewards: [{
+				id: "4BBA04B0E87E9935"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: " Those who followed this eye were never seen again; rumors say they found the great city of Atlantis, or lost their way trying"
+			tasks: [{
+				id: "31C4FA4169D22693"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:ender_eye"
+			id: "1E8BBEADD5B768DD"
+			rewards: [{
+				id: "1C79467B95D5B9CD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "40C48F508D87EC9B"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.601190476190482d
+		}
+		{
+			dependencies: ["259DF9797F62E7EB"]
+			icon: "minecraft:dragon_head"
+			id: "6FFA763E30C3FB30"
+			size: 3.0d
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "55CC0CF97ADAE566"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill The Dragon"
+			x: 0.5714285714285765d
+			y: 5.092261904761905d
+		}
+		{
+			dependencies: ["6FFA763E30C3FB30"]
+			id: "24F0801935B4EE1B"
+			rewards: [{
+				id: "77F277EF805F0C12"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "073B61D77B5514DB"
+				item: "majruszsdifficulty:ender_dragon_treasure_bag"
+				type: "item"
+			}]
+			x: -1.547619047619044d
+			y: 7.7589285714285765d
+		}
+		{
+			dependencies: ["259994986FEFDA10"]
+			id: "259DF9797F62E7EB"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_stone"
+				id: "5E3E698A4D7979CB"
+				title: "Enter the End"
+				type: "dimension"
+			}]
+			x: 0.5714285714285765d
+			y: 2.092261904761905d
+		}
+	]
+	title: "The End"
+}

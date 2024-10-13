@@ -1,0 +1,227 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "divine_weapons"
+	group: "294A86DD8A2AEBFA"
+	icon: "divine_weaponry:hyperion_longsword"
+	id: "56BB430E1FCE6F54"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3176A4337EAA6D32"
+			size: 5.0d
+			tasks: [{
+				id: "231E3B88B85B293A"
+				title: "Divine Weaponry"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "3621673437512A33"
+			rewards: [{
+				id: "47489AB68FCFB02E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "5D310BCEF0E9FB21"
+				item: "divine_weaponry:chaos_sword"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "7226A92057BE6698"
+			rewards: [{
+				id: "6AF86EF993A29409"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "454DEF02640F754E"
+				item: "divine_weaponry:fujindagger"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			description: [
+				"Held : Gives Poison Resistance to the user"
+				""
+				"Passive : Gives Poison to the target "
+				""
+				"Right click : Summons a wave of poison / Cooldown : 12s"
+				""
+				"Shift + Right click : Cures the user by removing all negative effects and healing him / Cooldown : 30s"
+			]
+			id: "42C69E78F28DC28E"
+			rewards: [{
+				id: "0723103E3270520B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "4552650F959006E6"
+				item: "divine_weaponry:cernunnos_sickle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "2FFDF5A30D6C1BAE"
+			rewards: [{
+				id: "1F93F07B24F136FA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "2AD6CF0F0F72934B"
+				item: "divine_weaponry:tunupa_glaive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "1622CC7BF7C24214"
+			rewards: [{
+				id: "63271947A208A3EC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "6A93D87D06EA9327"
+				item: "divine_weaponry:om_spear"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "3D18DE83D32EB3FC"
+			rewards: [{
+				id: "7E43E14BD8EE24AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "0E496FDB3C2EDED0"
+				item: "divine_weaponry:jotunn_battleaxe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "78AC745376E83BD5"
+			rewards: [{
+				id: "68DC5A2222DA448B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "67388CEB0C29037E"
+				item: "divine_weaponry:hyperion_longsword"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "41C751D11B47105B"
+			rewards: [{
+				id: "67D96D390EF16BE1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "6DACF189DD18766F"
+				item: "divine_weaponry:mjollnir_hammer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "54B4BA98D99DF5FC"
+			rewards: [{
+				id: "479D95CDD7BF8D6E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "35D87C703EF8F5E9"
+				item: "divine_weaponry:sobek_rapier"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "5BBFFC199BF8396B"
+			rewards: [{
+				id: "334EF5F45DA37420"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "5EFA485936650C75"
+				item: "divine_weaponry:zeus_cutlass"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3176A4337EAA6D32"]
+			id: "3222EE43CA39B6E7"
+			rewards: [{
+				id: "0657E979D32FEADB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "4526D01AF7A0D7F6"
+				item: "divine_weaponry:amaterasu_shuriken"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+	]
+	title: "Divine Weapons"
+}

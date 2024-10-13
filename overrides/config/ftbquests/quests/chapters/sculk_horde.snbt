@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sculk_horde"
+	group: "10884A0C6138D440"
+	icon: "sculkhorde:sculk_ancient_node"
+	id: "532546E89026154E"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: ["The Sculk Horde"]
+		image: "sculkhorde:block/sculk_ancient_node"
+		rotation: 0.0d
+		width: 5.0d
+		x: -0.5d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "20D73DDA03F0EFC9"
+			rewards: [{
+				id: "6932C085FC0ACDD5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 3.0d
+			subtitle: "An ancient relic of an ancient time. No one is quite sure what it was used for, but it was certainly nothing good. The ancient artifact speaks to me, whispers wonders in my head. It tells me to approach it. I had no intention of listening to it at first, but I begin to completely forget why I was so opposed to it in the first place. I will serve a greater purpose."
+			tasks: [{
+				icon: "sculkhorde:sculk_ancient_node"
+				id: "302CC75D0BF83FDB"
+				structure: "sculkhorde:sculk_tomb_main"
+				title: "Find the Ancient Node"
+				type: "structure"
+			}]
+			x: -0.4166666666666785d
+			y: 1.8083333333333442d
+		}
+		{
+			dependencies: ["20D73DDA03F0EFC9"]
+			description: [
+				"Generates a protective shell around itself."
+				"Keeps chunks loaded around itself to allow for constant spreading."
+				"Makes Sculk Summoners more intelligent and stragetic."
+				"Infects the area around itself."
+			]
+			id: "4C21BA234CEEBD7F"
+			rewards: [{
+				id: "3142458F5070B710"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			size: 2.0d
+			subtitle: "The Sculk Node is a localized brain that allows the Gravemind to control the infestation within the surrounding area."
+			tasks: [{
+				id: "56F905D073B7EA46"
+				item: "sculkhorde:sculk_node"
+				title: "Sculk Node"
+				type: "item"
+			}]
+			x: -0.3869047619047734d
+			y: 4.761904761904759d
+		}
+		{
+			dependencies: ["20D73DDA03F0EFC9"]
+			description: ["Crafted with a Golden Apple and 4 Amethyst Shards."]
+			id: "2A4FEA3AE23A601A"
+			rewards: [{
+				id: "0379CEE7966797B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "Item used to craft Pure Souls and Infestation Ward Blocks."
+			tasks: [{
+				count: 16L
+				id: "1251A45A05EF7F75"
+				item: "sculkhorde:essence_of_purity"
+				title: "Essense of Purity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: ["20D73DDA03F0EFC9"]
+			icon: "sculkhorde:infested_crying_obsidian"
+			id: "4F8DE212D2111DFF"
+			rewards: [{
+				id: "0A0CF3ED716F6782"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "Infested Crying Obsidian is created when Crying Obsidian is infested by Sculk. It is used to craft Crying Souls."
+			tasks: [{
+				id: "4D287A419DFCA0EC"
+				item: "sculkhorde:infested_crying_obsidian"
+				type: "item"
+			}]
+			title: "Infested Crying Obsidian"
+			x: -2.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["4F8DE212D2111DFF"]
+			id: "550E972579077D51"
+			rewards: [{
+				count: 4
+				id: "161B05DFEAB9EB1D"
+				item: "sculkhorde:infested_crying_obsidian"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Crying Souls is an item that is obtained from putting Infested Crying Obsidian in a crafting table."
+			tasks: [{
+				id: "7D00297633BFE729"
+				item: "sculkhorde:crying_souls"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"550E972579077D51"
+				"2A4FEA3AE23A601A"
+			]
+			id: "68F3FB5D97A7C379"
+			size: 3.0d
+			subtitle: "Pure Souls is an important item used to make the Ancient Sculk Node dormant. Right-clicking the Ancient Sculk Node will cause it to shutdown and stay permanently dormant."
+			tasks: [{
+				id: "1AB7A04B36796EE1"
+				item: "sculkhorde:pure_souls"
+				type: "item"
+			}]
+			title: "Defeat the Ancient Node"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "sculkhorde:sculk_hatcher_spawn_egg"
+			id: "484773F411FD9B12"
+			rewards: [{
+				id: "182EB0BF58AD55FB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_hatcher"
+				id: "62042AD78D0588CF"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "deeperdarker:sculk_leech_spawn_egg"
+			id: "22C5ECDD3AC5BEE7"
+			rewards: [{
+				id: "73C7E0F88599FD89"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "deeperdarker:sculk_leech"
+				id: "290D3D1F29D352B3"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "deeperdarker:sculk_centipede_spawn_egg"
+			id: "5130D2A31C8960CC"
+			rewards: [{
+				id: "1C46AFB5D91F2CE8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "deeperdarker:sculk_centipede"
+				id: "127EF7E18EAC5C1B"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "deeperdarker:sculk_snapper_spawn_egg"
+			id: "34B75E67931F4DE5"
+			rewards: [{
+				id: "3E83B6B8C8F69CB6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "deeperdarker:sculk_snapper"
+				id: "35983A8DD8AC95CA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			dependency_requirement: "one_started"
+			id: "2F180AB2609B651D"
+			rewards: [{
+				id: "07F7A686B3CD648D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_creeper"
+				icon: "sculkhorde:sculk_creeper_spawn_egg"
+				id: "72818B695D88EBFC"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "sculkhorde:sculk_enderman_spawn_egg"
+			id: "391748F6922C0950"
+			rewards: [{
+				id: "734AB2626BE9A6A7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_enderman"
+				id: "6D92EC5EB529362A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "sculkhorde:sculk_mite_aggressor_spawn_egg"
+			id: "528D7DCA922B237C"
+			rewards: [{
+				id: "77F5230F69AB7DB5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_mite_aggressor"
+				id: "6A2F8E7125DB69F2"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "sculkhorde:sculk_zombie_spawn_egg"
+			id: "247F58BFD909C295"
+			rewards: [{
+				id: "077BDC2A8BD7A182"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_zombie"
+				id: "4BF42AB965653DA1"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			icon: "sculkhorde:sculk_ravager_spawn_egg"
+			id: "327BBBA571F8EEF0"
+			rewards: [{
+				id: "73D86287DBDE9F3E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_ravager"
+				id: "4CAB17B6DDE0A326"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			id: "08D58074D91469BA"
+			rewards: [{
+				id: "230ABD1FD89F3CB6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "sculkhorde:sculk_vindicator"
+				icon: "sculkhorde:sculk_vindicator_spawn_egg"
+				id: "083473B6C7F8FC40"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1C11C8F902ECD57D"]
+			icon: "sculkhorde:calcite_clump"
+			id: "3F2847C05CD44057"
+			rewards: [
+				{
+					id: "5718C3600E976942"
+					item: "sculkhorde:calcite_clump"
+					type: "item"
+				}
+				{
+					id: "2BBD900BB5B21D39"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Obtained from Calcite Ore found in Living Rock Structures near the Sculk Nodes."
+			tasks: [{
+				id: "4CFCE3E23ACF1D22"
+				item: "sculkhorde:calcite_clump"
+				type: "item"
+			}]
+			title: "Calcite Clumps"
+			x: 6.571428571428569d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1C11C8F902ECD57D"]
+			id: "3D9C9B893ADF4670"
+			rewards: [
+				{
+					id: "433448326A7319CA"
+					item: "sculkhorde:sculk_resin"
+					type: "item"
+				}
+				{
+					id: "62D50E1F13FE0B58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "Sculk Resin found from shearing a Sculk BeeHive Structure."
+			tasks: [{
+				id: "554B6D9C65FDC71F"
+				item: "sculkhorde:sculk_resin"
+				type: "item"
+			}]
+			title: "Sculk Resin"
+			x: 6.678571428571452d
+			y: 8.30833333333333d
+		}
+		{
+			dependencies: [
+				"3D9C9B893ADF4670"
+				"3F2847C05CD44057"
+			]
+			icon: "sculkhorde:infestation_purifier"
+			id: "6D2275369A17C60B"
+			rewards: [{
+				id: "1D86342718CD358A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "Placing this will create an entity that attracts the Sculk Horde's attention and slowly purifies the blocks nearby as it moves around. Defend this before the Horde kills it!"
+			tasks: [{
+				id: "0D7987445EBAF29E"
+				item: "sculkhorde:infestation_purifier"
+				type: "item"
+			}]
+			title: "Infestation Purifier"
+			x: 8.178571428571452d
+			y: 7.30833333333333d
+		}
+		{
+			dependencies: ["68F3FB5D97A7C379"]
+			icon: "sculkhorde:infestation_purifier"
+			id: "1C11C8F902ECD57D"
+			size: 3.0d
+			tasks: [{
+				id: "323F17165390635F"
+				title: "Purifying The World"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 8.32142857142857d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "sculkhorde:sculk_sweeper_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F65B364BA0AE886"
+			size: 2.5d
+			tasks: [{
+				id: "4D8C844FEBAE3827"
+				title: "Kill the Horde"
+				type: "checkmark"
+			}]
+			title: "Kill the Horde"
+			x: -6.500000000000021d
+			y: 1.7630952380952465d
+		}
+		{
+			dependencies: ["1C11C8F902ECD57D"]
+			id: "1D04249B288B810F"
+			rewards: [{
+				id: "1C6C5FC5111545F8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "Found in the Sculk Horde's Territory, these spires spawn natrually and contain Calcite Ore and other valuable resources."
+			tasks: [{
+				id: "5E9A16425A164C9B"
+				item: "sculkhorde:sculk_living_rock"
+				type: "item"
+			}]
+			title: "Sculk Living Rock"
+			x: 6.178571428571452d
+			y: 9.80833333333333d
+		}
+		{
+			dependencies: ["1D04249B288B810F"]
+			icon: "sculkhorde:infestation_ward_block"
+			id: "2F399063237FB38C"
+			rewards: [{
+				id: "607ED9AF740ED8DE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			subtitle: "Creates a 1 block barrier around the ward to prevent the spread of sculk past it! Used to create walls to contain the sculk horde!"
+			tasks: [{
+				id: "525A0C891B065DA4"
+				item: "sculkhorde:infestation_ward_block"
+				type: "item"
+			}]
+			x: 7.678571428571452d
+			y: 9.30833333333333d
+		}
+		{
+			dependencies: ["2A4FEA3AE23A601A"]
+			icon: "sculkhorde:purification_flask_item"
+			id: "3B7E19BC0978410A"
+			size: 1.5d
+			subtitle: "Thrown potion that gives Purity Status effects, clears infested blocks at place thrown, and damages Sculk Horde monsters over time!"
+			tasks: [{
+				id: "2ACD97D1B4E9BAD2"
+				item: "sculkhorde:purification_flask_item"
+				type: "item"
+			}]
+			title: "Purification Flask"
+			x: 3.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F65B364BA0AE886"]
+			id: "096EDF6113565EE1"
+			rewards: [{
+				id: "33C6B86985E0E739"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "16FD2A05822A6F1C"
+				item: {
+					Count: 1b
+					id: "sculkhorde:sculk_sweeper_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+	]
+	title: "Sculk Horde"
+}

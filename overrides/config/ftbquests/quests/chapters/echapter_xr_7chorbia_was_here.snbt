@@ -1,0 +1,584 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "echapter_xr_7chorbia_was_here"
+	group: "294A86DD8A2AEBFA"
+	icon: {
+		Count: 1b
+		id: "hexerei:book_of_shadows"
+		tag: { }
+	}
+	id: "5E68CFDEAACA2416"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5A4A2AD67F66718C"]
+			id: "6AC73F90EE47E809"
+			rewards: [{
+				count: 5
+				id: "4EF72E9CFC49D243"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "Mixes all sorts of recipes."
+			tasks: [{
+				id: "40EB6D3131956AA5"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "Make &8Mixing Cauldron"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7652FD29DEBD178B"]
+			id: "07C5CAAA9BC6E247"
+			rewards: [{
+				count: 4
+				id: "0CE188A8EBD0A311"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			subtitle: "Used to make witch armor."
+			tasks: [{
+				id: "3CBEAEF99801F38D"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			title: "Craft &8Infused Fabric"
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["377608AF5E3210FF"]
+			id: "2EC6A07B008B7E23"
+			rewards: [{
+				count: 4
+				id: "4FA1C644B85B1FC2"
+				item: "hexerei:selenite_shard"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [
+				{
+					id: "2AF4993EC03787B7"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "407818BD8034BCB2"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06A665ECB2B96AA7"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft &8Witch Set"
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0C60D0AD2D841E41"]
+			id: "2E46054239C45DB4"
+			rewards: [{
+				id: "72C6CC36D9FD535A"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "30ABA3790E7B1DB6"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "Obtain &bWater Bucket"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C60D0AD2D841E41"]
+			id: "796C26318338E189"
+			rewards: [{
+				id: "295D41D443137792"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "39A112558B74C5D8"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Obtain &cLava Bucket"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["762EE4B4D1B9748E"]
+			id: "49CAC34AA2FA833D"
+			rewards: [{
+				id: "63463E66735A8879"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:healing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "5C0B2A3E4B27949C"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			title: "Craft &8Dipper"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5D820E30F96098DA"]
+			id: "749F1E3A732B4E37"
+			rewards: [{
+				count: 3
+				id: "378246345B2025E8"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "0671F3B850A25DEF"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			title: "Craft &8Dipper"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["762EE4B4D1B9748E"]
+			id: "3EF33AD5F187128D"
+			rewards: [{
+				id: "659B3E2B0DC26F45"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "2194280B5826DA49"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			title: "Make &cBlood Sigil"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4802C3FBE2D801F7"]
+			id: "44C42E0BB287C17F"
+			rewards: [{
+				count: 3
+				id: "7C96D660A58411E7"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "214E239B56D8031A"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			title: "Obtain &cBottle of Blood"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7652FD29DEBD178B"]
+			id: "53D9F6CE3C83B548"
+			rewards: [{
+				count: 4
+				id: "07B8CB81A0D8C244"
+				item: "hexerei:mahogany_log"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "1BC4825E2F3C84F9"
+				item: {
+					Count: 1b
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &8Mahogany Broom"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "2CF17D7FEF43CE92"
+			rewards: [{
+				count: 4
+				id: "4BEDEB9378B4C432"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Your guide to &6Hexerei."
+			tasks: [{
+				id: "721CD25209DB2EB7"
+				item: {
+					Count: 1b
+					id: "hexerei:book_of_shadows"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Obtain the &6Book of Shadows"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5A4A2AD67F66718C"]
+			id: "546D16EBB7216087"
+			rewards: [{
+				count: 2
+				id: "0CED5444720B7F7E"
+				item: "hexerei:mahogany_log"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "75F5577B2DB9B447"
+				item: "hexerei:book_of_shadows_altar"
+				type: "item"
+			}]
+			title: "Craft &8Altar"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7652FD29DEBD178B"]
+			id: "61464B472284AD14"
+			rewards: [{
+				count: 2
+				id: "629C8318E5463243"
+				item: "hexerei:mahogany_log"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "44CC3EE5799D6CC5"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &8Coffer"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["762EE4B4D1B9748E"]
+			id: "7F52D63445F1F7FA"
+			rewards: [{
+				id: "247EBEF3B49B2CAB"
+				item: "hexerei:herb_drying_rack_full"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "4A4429088DFBD6D8"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &eHerb Jar"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["762EE4B4D1B9748E"]
+			id: "2BFDE9B6ABF5AE7B"
+			rewards: [{
+				count: 4
+				id: "33DC828A3574023B"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "4BF96E2C6C97AED6"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			title: "Craft &8Pestle and Mortar"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A4A2AD67F66718C"]
+			id: "076C5764E3D8D5CE"
+			rewards: [{
+				count: 2
+				id: "40DB518B9F9526BC"
+				item: "hexerei:mahogany_log"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "764B3A61F18642FC"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			title: "Craft &8Drying Rack"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["762EE4B4D1B9748E"]
+			id: "21890F5F3EFCEE0F"
+			rewards: [{
+				id: "4DC0C6326F2894F4"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "6B1919277CC40EE0"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			title: "Craft &eSage Burning Plate"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A4A2AD67F66718C"]
+			id: "0492471903797DFF"
+			rewards: [{
+				count: 2
+				id: "23BC71A9831BFC86"
+				item: "hexerei:mahogany_log"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "58B7E681DF317A46"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft &8Crow Flute"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7652FD29DEBD178B"]
+			id: "13830FCCF7F3CC43"
+			rewards: [{
+				id: "6A711A3B089DA04C"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "010A48E38975BBD0"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain &3Broom Waterproof Tip"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["762EE4B4D1B9748E"]
+			id: "08C18E7D44142BBF"
+			rewards: [{
+				id: "5B13FF257B1BC0F6"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [{
+				id: "1D7AAB49BD49B78B"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain &8Broom Netherite Tip"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7652FD29DEBD178B"]
+			id: "4CF0AC733CCE8C0D"
+			rewards: [{
+				count: 4
+				id: "5A83DE52D5C44D1C"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "Hold &6[Shift]&r over the item for more information or refer to the &6Book of Shadows."
+			tasks: [
+				{
+					id: "7BB3AD275B9DA585"
+					item: "hexerei:small_satchel"
+					type: "item"
+				}
+				{
+					id: "2AC47335F3B395BC"
+					item: "hexerei:medium_satchel"
+					type: "item"
+				}
+				{
+					id: "462AC3BCF093E70C"
+					item: "hexerei:large_satchel"
+					type: "item"
+				}
+			]
+			title: "Obtain &8Satchels"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "2DEF08221C404D3A"
+			rewards: [{
+				count: 4
+				id: "4B1B67B91945499C"
+				item: "ancient_manuscripts:ancient_manuscript"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Can be obtained by librarian trades."
+			tasks: [{
+				id: "1EC596387366A9F0"
+				item: "ancient_manuscripts:ancient_manuscript"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DEF08221C404D3A"]
+			description: ["Requires books, enchanted book glue and a material gem and finally a manuscript."]
+			id: "40E0BFD7654B7300"
+			subtitle: "In order to create enchanted books, you will need to make a binding table. "
+			tasks: [{
+				id: "03C4FB427354FB67"
+				item: "ancient_manuscripts:oak_binding_table"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["40E0BFD7654B7300"]
+			id: "306204B5497EDD19"
+			rewards: [{
+				count: 3
+				id: "082FF7DC17048BD3"
+				item: "ancient_manuscripts:empty_glue_bottle"
+				type: "item"
+			}]
+			subtitle: "Holds glue."
+			tasks: [{
+				id: "27F05F23197FAB15"
+				item: "ancient_manuscripts:empty_glue_bottle"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["40E0BFD7654B7300"]
+			id: "3C94DD5FC3CF2533"
+			rewards: [{
+				id: "0C60681C20D83612"
+				item: {
+					Count: 1b
+					id: "ancient_manuscripts:enchanted_book_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used in the binding table."
+			tasks: [{
+				id: "2DEB57508B7F796C"
+				item: {
+					Count: 1b
+					id: "ancient_manuscripts:enchanted_book_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+	title: " &eForbidden Magic"
+}

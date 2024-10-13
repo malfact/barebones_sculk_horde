@@ -1,0 +1,427 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nethr"
+	group: "10884A0C6138D440"
+	icon: "minecraft:netherrack"
+	id: "54A7A54AD914043D"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 0.03125d
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: ["THE NETHER"]
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: -21.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2445FD5FD2E83287"]
+			id: "3B9B10A13E78E21D"
+			rewards: [{
+				id: "3A0541D16A05817E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Crafted with 2 Glass blocks and 1 Crying Obsidian. Holding in your offhand while killing an Undead will capture it's essence."
+			tasks: [{
+				id: "7A5BAB593571F568"
+				item: "nether_remastered:obisidian_infused_bottle"
+				type: "item"
+			}]
+			title: "Nether Infused Bottle"
+			x: 2.0d
+			y: -15.0d
+		}
+		{
+			id: "16629FAA3286A42B"
+			rewards: [{
+				id: "731A60705202509A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Top Left shard found in Abandoned Mineshafts."
+			tasks: [{
+				id: "04D0006EDADBECE5"
+				item: "nether_remastered:seal_piece_1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -17.0d
+		}
+		{
+			id: "10CED1F043941068"
+			rewards: [{
+				id: "74C7D36AF39DEF5B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Top Right shard found from Witches."
+			tasks: [{
+				id: "2A17EFFE1518EAF0"
+				item: "nether_remastered:seal_piece_2"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -17.0d
+		}
+		{
+			id: "2746854EACCF704C"
+			rewards: [{
+				id: "2EEC809AC2853029"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Bottom Left shard found from Evokers"
+			tasks: [{
+				id: "4B8867C88A9B5F31"
+				item: "nether_remastered:seal_piece_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -15.0d
+		}
+		{
+			id: "25D134F69AB1D7AB"
+			rewards: [{
+				id: "49C35189C4918697"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Bottom right shard found from Pillager Outposts"
+			tasks: [{
+				id: "594BDF8A99EE4161"
+				item: "nether_remastered:seal_piece_4"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -15.0d
+		}
+		{
+			id: "7108628CC4C7FE9F"
+			rewards: [{
+				id: "62870F6F407679A6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "763494ED4BB1CBAC"
+				title: "Kill the Warden"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["7108628CC4C7FE9F"]
+			id: "68003CE0890780E3"
+			rewards: [{
+				id: "258DB4D9D1EEC418"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			subtitle: "Dropped from a warden, the main piece needed to craft the Seal of the Underworld."
+			tasks: [{
+				id: "5A5B10B32C767FBE"
+				item: "nether_remastered:seal_crystal"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"10CED1F043941068"
+				"2746854EACCF704C"
+				"25D134F69AB1D7AB"
+				"16629FAA3286A42B"
+				"68003CE0890780E3"
+				"299E27149E916449"
+			]
+			id: "35209DD1FE5A5334"
+			rewards: [{
+				id: "344927E13BDA595A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			subtitle: "Grants permission to enter the Nether. Entering the Nether will unlock Expert Mode."
+			tasks: [{
+				id: "138E37B2757D772D"
+				item: "nether_remastered:seal_of_the_underworld_item"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.0d
+		}
+		{
+			id: "2445FD5FD2E83287"
+			rewards: [{
+				id: "1AB6350DD1712BDB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "4D5A86E45DC0D767"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["3B9B10A13E78E21D"]
+			id: "299E27149E916449"
+			rewards: [{
+				id: "72243198D2181C86"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2016D21A89A5543F"
+				item: "nether_remastered:bottled_nether_essence"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["35209DD1FE5A5334"]
+			id: "1FA8DFD92657FA73"
+			rewards: [{
+				id: "43AF40B170F57268"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 4.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "27793BD135A88C6B"
+				type: "dimension"
+			}]
+			title: "Visit the Nether"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1FA8DFD92657FA73"]
+			icon: "minecraft:nether_bricks"
+			id: "74B59E962DF43382"
+			rewards: [{
+				id: "041DA1431D484795"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "5E94632230E15D48"
+				structure: "betterfortresses:fortress"
+				type: "structure"
+			}]
+			title: "Find a Nether Fortress"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FA8DFD92657FA73"]
+			icon: "minecraft:deepslate_bricks"
+			id: "47304CF133BE9A71"
+			rewards: [{
+				id: "5202BDE1B2832FFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 2.5d
+			tasks: [{
+				id: "35312B693BBB53EC"
+				structure: "minecraft:bastion_remnant"
+				type: "structure"
+			}]
+			title: "Find a Bastion"
+			x: 3.154761904761905d
+			y: -3.9940476190476133d
+		}
+		{
+			dependencies: ["74B59E962DF43382"]
+			id: "06704CE947DC6AB8"
+			rewards: [{
+				id: "62D14E1597A46A6A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "1ED800B5E2375D27"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74B59E962DF43382"]
+			id: "19F4F584CC1C66D5"
+			rewards: [{
+				id: "634C8CCAC3CA294E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				count: 3L
+				id: "64FF553C3B44C7E3"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47304CF133BE9A71"]
+			id: "43055BB47FC56E88"
+			rewards: [{
+				id: "29C9D828598B062D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "6C2A46CB758BB6D1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47304CF133BE9A71"]
+			id: "64BF60C6630CECF7"
+			rewards: [{
+				id: "49ACECF3897D9321"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:piglin"
+				id: "3644F2FC95315265"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19F4F584CC1C66D5"]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "6BEDA7FB1363A152"
+			rewards: [
+				{
+					id: "704E96469CEFE59C"
+					item: "majruszsdifficulty:wither_treasure_bag"
+					type: "item"
+				}
+				{
+					id: "10C6EA4090F42F56"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "52183196D954CBC5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill the Wither"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6BEDA7FB1363A152"]
+			id: "6E28AAD58EE071C3"
+			rewards: [{
+				id: "2C82305C3FA36D0F"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA924EA200C73CC"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "The Nether"
+}

@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "modular_golems"
+	group: "294A86DD8A2AEBFA"
+	icon: {
+		Count: 1b
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "modulargolems:golem_guide"
+		}
+	}
+	id: "1D4BD7722C7937B7"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "modulargolems:item/book"
+		rotation: 0.0d
+		width: 5.0d
+		x: -1.0d
+		y: -2.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1b
+			id: "patchouli:guide_book"
+			tag: {
+				"patchouli:book": "modulargolems:golem_guide"
+			}
+		}
+		id: "6FEC399AADA9A3A3"
+		rewards: [{
+			id: "0860D43907A440B8"
+			item: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "modulargolems:golem_guide"
+				}
+			}
+			type: "item"
+		}]
+		size: 4.0d
+		tasks: [{
+			id: "43BF2252D75ED082"
+			title: "modular golems"
+			type: "checkmark"
+		}]
+		x: -1.1190476190476204d
+		y: 3.220238095238095d
+	}]
+	title: "Modular Golems"
+}
