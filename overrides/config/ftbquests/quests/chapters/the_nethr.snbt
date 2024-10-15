@@ -71,188 +71,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2445FD5FD2E83287"]
-			id: "3B9B10A13E78E21D"
-			rewards: [{
-				id: "3A0541D16A05817E"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "Crafted with 2 Glass blocks and 1 Crying Obsidian. Holding in your offhand while killing an Undead will capture it's essence."
-			tasks: [{
-				id: "7A5BAB593571F568"
-				item: "nether_remastered:obisidian_infused_bottle"
-				type: "item"
-			}]
-			title: "Nether Infused Bottle"
-			x: 2.0d
-			y: -15.0d
-		}
-		{
-			id: "16629FAA3286A42B"
-			rewards: [{
-				id: "731A60705202509A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "Top Left shard found in Abandoned Mineshafts."
-			tasks: [{
-				id: "04D0006EDADBECE5"
-				item: "nether_remastered:seal_piece_1"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -17.0d
-		}
-		{
-			id: "10CED1F043941068"
-			rewards: [{
-				id: "74C7D36AF39DEF5B"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "Top Right shard found from Witches."
-			tasks: [{
-				id: "2A17EFFE1518EAF0"
-				item: "nether_remastered:seal_piece_2"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -17.0d
-		}
-		{
-			id: "2746854EACCF704C"
-			rewards: [{
-				id: "2EEC809AC2853029"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "Bottom Left shard found from Evokers"
-			tasks: [{
-				id: "4B8867C88A9B5F31"
-				item: "nether_remastered:seal_piece_3"
-				type: "item"
-			}]
-			x: -4.0d
-			y: -15.0d
-		}
-		{
-			id: "25D134F69AB1D7AB"
-			rewards: [{
-				id: "49C35189C4918697"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "Bottom right shard found from Pillager Outposts"
-			tasks: [{
-				id: "594BDF8A99EE4161"
-				item: "nether_remastered:seal_piece_4"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -15.0d
-		}
-		{
-			id: "7108628CC4C7FE9F"
-			rewards: [{
-				id: "62870F6F407679A6"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				entity: "minecraft:warden"
-				id: "763494ED4BB1CBAC"
-				title: "Kill the Warden"
-				type: "kill"
-				value: 1L
-			}]
-			x: 6.0d
-			y: -17.0d
-		}
-		{
-			dependencies: ["7108628CC4C7FE9F"]
-			id: "68003CE0890780E3"
-			rewards: [{
-				id: "258DB4D9D1EEC418"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "Dropped from a warden, the main piece needed to craft the Seal of the Underworld."
-			tasks: [{
-				id: "5A5B10B32C767FBE"
-				item: "nether_remastered:seal_crystal"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -15.0d
-		}
-		{
-			dependencies: [
-				"10CED1F043941068"
-				"2746854EACCF704C"
-				"25D134F69AB1D7AB"
-				"16629FAA3286A42B"
-				"68003CE0890780E3"
-				"299E27149E916449"
-			]
-			id: "35209DD1FE5A5334"
-			rewards: [{
-				id: "344927E13BDA595A"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.5d
-			subtitle: "Grants permission to enter the Nether. Entering the Nether will unlock Expert Mode."
-			tasks: [{
-				id: "138E37B2757D772D"
-				item: "nether_remastered:seal_of_the_underworld_item"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -10.0d
-		}
-		{
-			id: "2445FD5FD2E83287"
-			rewards: [{
-				id: "1AB6350DD1712BDB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "4D5A86E45DC0D767"
-				item: "minecraft:crying_obsidian"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -17.0d
-		}
-		{
-			dependencies: ["3B9B10A13E78E21D"]
-			id: "299E27149E916449"
-			rewards: [{
-				id: "72243198D2181C86"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "2016D21A89A5543F"
-				item: "nether_remastered:bottled_nether_essence"
-				type: "item"
-			}]
-			x: 2.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["35209DD1FE5A5334"]
 			id: "1FA8DFD92657FA73"
 			rewards: [{
 				id: "43AF40B170F57268"
@@ -267,7 +85,7 @@
 			}]
 			title: "Visit the Nether"
 			x: 1.5d
-			y: -7.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["1FA8DFD92657FA73"]
@@ -286,7 +104,7 @@
 			}]
 			title: "Find a Nether Fortress"
 			x: 0.0d
-			y: -4.0d
+			y: -14.0d
 		}
 		{
 			dependencies: ["1FA8DFD92657FA73"]
@@ -305,7 +123,7 @@
 			}]
 			title: "Find a Bastion"
 			x: 3.154761904761905d
-			y: -3.9940476190476133d
+			y: -13.994047619047613d
 		}
 		{
 			dependencies: ["74B59E962DF43382"]
@@ -323,7 +141,7 @@
 				value: 10L
 			}]
 			x: -2.5d
-			y: -2.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["74B59E962DF43382"]
@@ -341,7 +159,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["47304CF133BE9A71"]
@@ -359,7 +177,7 @@
 				value: 10L
 			}]
 			x: 5.25d
-			y: -1.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["47304CF133BE9A71"]
@@ -377,24 +195,17 @@
 				value: 10L
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["19F4F584CC1C66D5"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "6BEDA7FB1363A152"
-			rewards: [
-				{
-					id: "704E96469CEFE59C"
-					item: "majruszsdifficulty:wither_treasure_bag"
-					type: "item"
-				}
-				{
-					id: "10C6EA4090F42F56"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "10C6EA4090F42F56"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 2.0d
 			tasks: [{
 				entity: "minecraft:wither"
@@ -404,7 +215,7 @@
 			}]
 			title: "Kill the Wither"
 			x: 1.5d
-			y: 1.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["6BEDA7FB1363A152"]
@@ -420,52 +231,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["1FA8DFD92657FA73"]
-			description: ["When held in the player's main hand or offhand, the soulspring lamp emits a 9x9 aura of cooling, reducing all nearby entities' temperatures to at most 1 degree below the overheating threshold. This effect does not stack with multiple lamps, and only one soulspring lamp consumes fuel if multiple are present."]
-			id: "09A754B9FEEA561C"
-			rewards: [{
-				count: 16
-				id: "1451A93E3C835433"
-				item: "cold_sweat:soul_sprout"
-				type: "item"
-			}]
-			size: 3.0d
-			subtitle: "The Soulspring Lamp is an item that reduces the local world temperature to a habitable level in the Nether. It is the most important tool when traversing the dimension."
-			tasks: [{
-				id: "32EA4AB0F5C8C712"
-				item: {
-					Count: 1b
-					id: "cold_sweat:soulspring_lamp"
-					tag: {
-						Fuel: 64.0d
-						Lit: 1b
-					}
-				}
-				type: "item"
-			}]
-			x: 5.5d
 			y: -7.0d
-		}
-		{
-			dependencies: ["09A754B9FEEA561C"]
-			id: "176048B79345A28C"
-			rewards: [{
-				id: "3AAB92913CDD9192"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			size: 2.0d
-			subtitle: "The Soul Sprout is a food item and fuel source for the Soulspring Lamp."
-			tasks: [{
-				id: "5ACA34326BAA3617"
-				item: "cold_sweat:soul_sprout"
-				type: "item"
-			}]
-			x: 7.5d
-			y: -5.0d
 		}
 	]
 	title: "The Nether"

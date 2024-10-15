@@ -134,9 +134,8 @@
       }
     },
     "dynamicIcons": {
-      "NoManaSendHelp": "https://mc-heads.net/avatar/93301bfcf94443a681db20462f7d2c5b",
       "default": "https://via.placeholder.com/256.png",
-      "174.136.202.14": "https://api.mcsrvstat.us/icon/174.136.202.14"
+      "NoManaSendHelp": "https://mc-heads.net/avatar/93301bfcf94443a681db20462f7d2c5b"
     },
     "dynamicVariables": {
       "default": "Example Text",

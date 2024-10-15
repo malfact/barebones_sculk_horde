@@ -12,20 +12,38 @@
 "Enable Zombies" = true
 
 [Zombies]
+	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
+	"Enable Pearler Zombie" = true
 	#Zombies can mine blocks to reach the target. Uses offhand item to mine
 	"Enable Digger Zombie" = true
 	#Let zombies use Fishing Rods, reeling players in. Either put a Fishing Rod in main or off hand and when near enough from the player they will throw it.
 	"Enable Fisher Zombie" = true
+
 	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
-	"Enable Pearler Zombie" = true
+	[Zombies."Pearler Zombie"]
+		#Chance for a Zombie to spawn with an ender pearl in the offhand. I highly recommend using something like Mobs Properties Randomness to have more control over mobs equipment.
+		#Range: 0.0 ~ 1.0
+		"Equip Ender Pearl Chance" = 0.05
+		#How many ender pearls will Zombies spawn with.
+		#Range: 0 ~ 16
+		"Ender Pearl Amount" = 2
+		#Inaccuracy when throwing the ender pearl.
+		#Range: 1 ~ 128
+		Inaccuracy = 4
+
+		#Entities that will not be affected by this module.
+		[Zombies."Pearler Zombie"."Entity Blacklist"]
+			Blacklist = ["quark:forgotten"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
 
 	#Zombies can mine blocks to reach the target. Uses offhand item to mine
 	[Zombies."Digger Zombie"]
 		#Chance for a Zombie to spawn with the digger ability
 		#Range: 0.0 ~ 1.0
-		"Digger Chance" = 0.05
+		"Digger Chance" = 0.07
 		#Zombies with Digger AI will mine only if they have any tool in the off-hand
-		"Digger Tool Only" = true
+		"Digger Tool Only" = false
 		#Zombies with Digger AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
 		"Digger Proper Tool Only" = false
 		#Zombies with Digger AI will spawn with a Wooden Pickaxe.
@@ -66,60 +84,15 @@
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 
-	#Let zombies use ender pearls. Either put ender pearls in main or off hand and when far enough from the player they will throw it.
-	[Zombies."Pearler Zombie"]
-		#Chance for a Zombie to spawn with an ender pearl in the offhand. I highly recommend using something like Mobs Properties Randomness to have more control over mobs equipment.
-		#Range: 0.0 ~ 1.0
-		"Equip Ender Pearl Chance" = 0.05
-		#How many ender pearls will Zombies spawn with.
-		#Range: 0 ~ 16
-		"Ender Pearl Amount" = 2
-		#Inaccuracy when throwing the ender pearl.
-		#Range: 1 ~ 128
-		Inaccuracy = 4
-
-		#Entities that will not be affected by this module.
-		[Zombies."Pearler Zombie"."Entity Blacklist"]
-			Blacklist = ["quark:forgotten"]
-			#If true the list will be treated as a whitelist instead of blacklist
-			"List as Whitelist" = false
-
 [Witches]
-	#Witches flee from the target.
-	"Enable Witch Flee Target" = true
-	#Witches summon Villagers and cast a lightning upon them.
-	"Enable Dark Arts Witches" = false
 	#Witches throw potions farther, faster and more potion types. Also no longer chase player if they can't see him.
 	"Enable Witch Potion Throwing" = true
 	#Witches drink more potions.
 	"Enable Thirsty Witches" = true
-
-	#Witches flee from the target.
-	[Witches."Witch Flee Target"]
-		#Chance for a Witch to spawn with the ability to avoid the player
-		#Range: 0.0 ~ 1.0
-		"Avoid Player chance" = 1.0
-		#Chance for a Witch to be able to throw potions while running from a player
-		#Range: 0.0 ~ 1.0
-		"Attack When Avoiding Chance" = 0.5
-		#Distance from a player that will make the Witch run away.
-		#Range: 0.0 ~ 32.0
-		"Flee Distance Far" = 16.0
-		#Distance from a player that counts as near and will make the Witch run away faster.
-		#Range: 0.0 ~ 32.0
-		"Flee Distance Near" = 8.0
-		#Speed multiplier when the Witch avoids the player and it's farther than 'Flee Distance Near' blocks from him.
-		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Far" = 1.1
-		#Speed multiplier when the Witch avoids the player and it's within 'Flee Distance Near' blocks from him.
-		#Range: 0.0 ~ 4.0
-		"Flee speed Multiplier Near" = 1.25
-
 	#Witches summon Villagers and cast a lightning upon them.
-	[Witches."Dark Arts Witches"]
-		#Chance for a witch to get the Dark Art AI (as soon as they have a target and are less than 10 blocks away from the target will summon a Villager and cast a lightning bolt on them
-		#Range: 0.0 ~ 1.0
-		"Dark Art Chance" = 0.333
+	"Enable Dark Arts Witches" = true
+	#Witches flee from the target.
+	"Enable Witch Flee Target" = true
 
 	#Witches throw potions farther, faster and more potion types. Also no longer chase player if they can't see him.
 	[Witches."Witch Potion Throwing"]
@@ -178,6 +151,33 @@
 		"Drink Milk Chance" = 0.1
 		#A list of potions that the witch will drink as soon as the player is targeted. Note that witches can still drink other potions in different situations, refer to other config options. Format is effect_id,duration,amplifier. The potions are applied in order and witches will not drink the same potion if already has the effect.
 		"Potions on Target List" = ["minecraft:speed,3600,1", "minecraft:resistance,3600,0", "minecraft:absorption,1800,0", "minecraft:regeneration,900,0"]
+
+	#Witches summon Villagers and cast a lightning upon them.
+	[Witches."Dark Arts Witches"]
+		#Chance for a witch to get the Dark Art AI (as soon as they have a target and are less than 10 blocks away from the target will summon a Villager and cast a lightning bolt on them
+		#Range: 0.0 ~ 1.0
+		"Dark Art Chance" = 0.333
+
+	#Witches flee from the target.
+	[Witches."Witch Flee Target"]
+		#Chance for a Witch to spawn with the ability to avoid the player
+		#Range: 0.0 ~ 1.0
+		"Avoid Player chance" = 1.0
+		#Chance for a Witch to be able to throw potions while running from a player
+		#Range: 0.0 ~ 1.0
+		"Attack When Avoiding Chance" = 0.5
+		#Distance from a player that will make the Witch run away.
+		#Range: 0.0 ~ 32.0
+		"Flee Distance Far" = 16.0
+		#Distance from a player that counts as near and will make the Witch run away faster.
+		#Range: 0.0 ~ 32.0
+		"Flee Distance Near" = 8.0
+		#Speed multiplier when the Witch avoids the player and it's farther than 'Flee Distance Near' blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Far" = 1.1
+		#Speed multiplier when the Witch avoids the player and it's within 'Flee Distance Near' blocks from him.
+		#Range: 0.0 ~ 4.0
+		"Flee speed Multiplier Near" = 1.25
 
 [Villagers]
 	#Make villagers fight back
@@ -272,35 +272,10 @@
 			"List as Whitelist" = false
 
 [Skeletons]
-	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
-	"Enable Skeleton Shoot" = true
 	#Skeletons try to stay away from the target.
 	"Enable Skeleton Flee" = true
-
 	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
-	[Skeletons."Skeleton Shoot"]
-		#Chance for a Skeleton to spawn with the ability to strafe (like vanilla)
-		#Range: 0.0 ~ 1.0
-		"Strafe chance" = 0.333
-		#How much inaccuracy does the arrow fired by skeletons have. Vanilla skeletons have 10/6/2 inaccuracy in easy/normal/hard difficulty.
-		#Range: 0.0 ~ 30.0
-		"Arrow Inaccuracy" = 2.0
-		#Chance for a Skeleton to spawn as a spammer, which spams arrows instead of fully charging the bow
-		#Range: 0.0 ~ 1.0
-		"Spammer chance" = 0.07
-
-		#The range from where a skeleton will shoot a player
-		[Skeletons."Skeleton Shoot"."Shooting Range"]
-			#Range: 1.0 ~ 64.0
-			Minimum = 24.0
-			#Range: 1.0 ~ 64.0
-			Maximum = 32.0
-
-		#Entities that will not get affected by this feature
-		[Skeletons."Skeleton Shoot"."Entity Blacklist"]
-			Blacklist = ["quark:forgotten"]
-			#If true the list will be treated as a whitelist instead of blacklist
-			"List as Whitelist" = false
+	"Enable Skeleton Shoot" = true
 
 	#Skeletons try to stay away from the target.
 	[Skeletons."Skeleton Flee"]
@@ -325,6 +300,31 @@
 
 		#Entities that will not be affected by this feature
 		[Skeletons."Skeleton Flee"."Entity Blacklist"]
+			Blacklist = ["quark:forgotten"]
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
+
+	#Skeletons are more precise when shooting and strafing is removed, can hit a target from up to 64 blocks and try to stay away from the target.
+	[Skeletons."Skeleton Shoot"]
+		#Chance for a Skeleton to spawn with the ability to strafe (like vanilla)
+		#Range: 0.0 ~ 1.0
+		"Strafe chance" = 0.333
+		#How much inaccuracy does the arrow fired by skeletons have. Vanilla skeletons have 10/6/2 inaccuracy in easy/normal/hard difficulty.
+		#Range: 0.0 ~ 30.0
+		"Arrow Inaccuracy" = 2.0
+		#Chance for a Skeleton to spawn as a spammer, which spams arrows instead of fully charging the bow
+		#Range: 0.0 ~ 1.0
+		"Spammer chance" = 0.07
+
+		#The range from where a skeleton will shoot a player
+		[Skeletons."Skeleton Shoot"."Shooting Range"]
+			#Range: 1.0 ~ 64.0
+			Minimum = 24.0
+			#Range: 1.0 ~ 64.0
+			Maximum = 32.0
+
+		#Entities that will not get affected by this feature
+		[Skeletons."Skeleton Shoot"."Entity Blacklist"]
 			Blacklist = ["quark:forgotten"]
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
@@ -476,14 +476,14 @@
 [Base]
 	#Changes attack range to use the 1.20.2 mechanic
 	"Enable Attacking" = true
-	#Makes mobs be able to move in more ways, like climbing or swim.
-	"Enable Movement" = true
+	#Mobs will run away from exploding creepers / TNT
+	"Enable Avoid Explosions" = true
 	#Change how mobs target players
 	"Enable Targeting" = true
 	#Makes mobs be able to use shields.
 	"Enable Shielding" = false
-	#Mobs will run away from exploding creepers / TNT
-	"Enable Avoid Explosions" = true
+	#Makes mobs be able to move in more ways, like climbing or swim.
+	"Enable Movement" = true
 	#Prevent players from abusing some game mechanics to stop mobs
 	"Enable Anti-Cheese" = true
 
@@ -492,15 +492,28 @@
 		#If true melee monsters (zombies, etc) will attack based off the forge:attack_range attribute instead of a fixed ~0.82 blocks. By default, mobs' forge:attack_range is set to 0.82 blocks, like vanilla 1.20.2.
 		"Melee Attacks Attribute Based" = false
 
-	#Makes mobs be able to move in more ways, like climbing or swim.
-	[Base.Movement]
-		#If true, mobs will be able to climb (up and down)
-		"Allow Climbing" = false
-		#If true, mobs try to find climbable blocks to reach the target
-		"Target Ladders" = false
-		#How faster mobs can swim. Setting to 0 will leave the swim speed as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
-		#Range: 0.0 ~ 4.0
-		"Swim Speed Multiplier" = 2.5
+	[Base.Base]
+		#How far away from any player monsters will instantly despawn? Vanilla is 128
+		#Range: 0 ~ 128
+		"Monsters Despawning Distance" = 96
+		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
+		#Range: 0 ~ 128
+		"Min Monsters Despawning Distance" = 48
+
+	#Mobs will run away from exploding creepers / TNT
+	[Base."Avoid Explosions"]
+		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
+		#Range: 0.0 ~ 10.0
+		"Flee speed Multiplier Near" = 1.4
+		#Speed multiplier when the mob runs from explosions and it's farther than 7 blocks from him.
+		#Range: 0.0 ~ 10.0
+		"Flee speed Multiplier Far" = 1.2
+
+		#Entities that shouldn't be affected by this feature
+		[Base."Avoid Explosions"."Entity Blacklist"]
+			Blacklist = []
+			#If true the list will be treated as a whitelist instead of blacklist
+			"List as Whitelist" = false
 
 	#Change how mobs target players
 	[Base.Targeting]
@@ -531,28 +544,15 @@
 			#If true the list will be treated as a whitelist instead of blacklist
 			"List as Whitelist" = false
 
-	[Base.Base]
-		#How far away from any player monsters will instantly despawn? Vanilla is 128
-		#Range: 0 ~ 128
-		"Monsters Despawning Distance" = 96
-		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
-		#Range: 0 ~ 128
-		"Min Monsters Despawning Distance" = 48
-
-	#Mobs will run away from exploding creepers / TNT
-	[Base."Avoid Explosions"]
-		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
-		#Range: 0.0 ~ 10.0
-		"Flee speed Multiplier Near" = 1.4
-		#Speed multiplier when the mob runs from explosions and it's farther than 7 blocks from him.
-		#Range: 0.0 ~ 10.0
-		"Flee speed Multiplier Far" = 1.2
-
-		#Entities that shouldn't be affected by this feature
-		[Base."Avoid Explosions"."Entity Blacklist"]
-			Blacklist = []
-			#If true the list will be treated as a whitelist instead of blacklist
-			"List as Whitelist" = false
+	#Makes mobs be able to move in more ways, like climbing or swim.
+	[Base.Movement]
+		#If true, mobs will be able to climb (up and down)
+		"Allow Climbing" = false
+		#If true, mobs try to find climbable blocks to reach the target
+		"Target Ladders" = false
+		#How faster mobs can swim. Setting to 0 will leave the swim speed as vanilla. I recommend using mods like Mobs Properties Randomness to have more control over the attribute.
+		#Range: 0.0 ~ 4.0
+		"Swim Speed Multiplier" = 2.5
 
 	#Prevent players from abusing some game mechanics to stop mobs
 	[Base.Anti-Cheese]

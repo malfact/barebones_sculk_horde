@@ -419,27 +419,6 @@
 			y: 5.092261904761905d
 		}
 		{
-			dependencies: ["6FFA763E30C3FB30"]
-			id: "24F0801935B4EE1B"
-			rewards: [{
-				id: "77F277EF805F0C12"
-				item: {
-					Count: 1b
-					id: "explorerscompass:explorerscompass"
-					tag: { }
-				}
-				type: "item"
-			}]
-			size: 2.0d
-			tasks: [{
-				id: "073B61D77B5514DB"
-				item: "majruszsdifficulty:ender_dragon_treasure_bag"
-				type: "item"
-			}]
-			x: -1.547619047619044d
-			y: 7.7589285714285765d
-		}
-		{
 			dependencies: ["259994986FEFDA10"]
 			id: "259DF9797F62E7EB"
 			size: 3.0d

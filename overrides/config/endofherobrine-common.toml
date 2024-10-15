@@ -1,7 +1,7 @@
 
 ["Common configs for The End of Herobrine Mod"]
 	#Should enable experimental features?
-	experimental = true
+	experimental = false
 	#Should Herobrine build 1.7.10 structures?
 	legacyStructures = false
 	#Should Herobrine's Wrath raise during gameplay?

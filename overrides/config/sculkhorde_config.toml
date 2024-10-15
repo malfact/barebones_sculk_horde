@@ -30,7 +30,7 @@
 	purification_speed_multiplier = 0.0
 	#How far should the infestation purifier reach? (Default 5)
 	#Range: 0 ~ 100
-	purifier_range = 48
+	purifier_range = 64
 
 ["Gravemind Variables"]
 	#How much mass is needed for the Gravemind to enter the immature stage? (Default 5000)

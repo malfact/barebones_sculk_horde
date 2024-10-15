@@ -5,7 +5,7 @@
 	group: "294A86DD8A2AEBFA"
 	icon: "divine_weaponry:hyperion_longsword"
 	id: "56BB430E1FCE6F54"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
